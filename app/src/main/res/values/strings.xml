@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Scapping</string>
+    <string name="an_error_occurred">An Error Occurred</string>
+    <string name="empty_list">Empty List</string>
 </resources>
