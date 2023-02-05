@@ -1,17 +1,13 @@
 package com.example.scapping
 
-import android.content.ContentValues.TAG
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.scapping.Retrofit.RetrofitService
-import com.example.scapping.Retrofit.RetrofitService.Companion.retrofitService
 import com.example.scapping.adapter.MainAdapter
 import com.example.scapping.databinding.ActivityMainBinding
-import com.example.scapping.repository.MainRepository
 import com.example.scapping.viewmodel.MainViewModel
 import com.example.scapping.viewmodel.MyViewModelfactory
 

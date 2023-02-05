@@ -3,10 +3,8 @@ package com.example.scapping.viewmodel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.scapping.data.Movie
-import com.example.scapping.repository.MainRepository
 import retrofit2.Call
 import retrofit2.Response
-import javax.security.auth.callback.Callback
 
 class MainViewModel constructor(private val repository: MainRepository): ViewModel() {
     val movieList = MutableLiveData<List<Movie>>()
