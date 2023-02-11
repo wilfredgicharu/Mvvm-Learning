@@ -31,8 +31,8 @@ interface MyApi {
 
     companion object {
         operator fun invoke(networkConnectionInterceptor: NetworkConnectionInterceptor
-        ): MyApi {
-
+        ) {
+//todo
         }
     }
 
