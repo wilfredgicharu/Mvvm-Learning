@@ -4,4 +4,6 @@
     <string name="empty_list">Empty List</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_option_films">Films</string>
+    <string name="menu_option_actors">Actors</string>
 </resources>
